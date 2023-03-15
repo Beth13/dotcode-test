@@ -1,0 +1,32 @@
+table th,
+td {
+  border: 2px solid black;
+}
+
+th {
+  line-height: 36px;
+  width: 100px;
+}
+
+tr {
+  font-size: 12px;
+}
+
+td {
+  width: 100px;
+  padding: 20px 40px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+table {
+  margin-top: 50px;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table__span {
+  display: flex;
+  flex-direction: column;
+}
